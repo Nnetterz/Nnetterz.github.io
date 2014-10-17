@@ -11,5 +11,29 @@ p {
 }
 
 .paragraph2 {
-    color: #cdcdcd;
+    color: red;
+}
+
+.one {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: fixed;
+    top: 20px;
+    right: 100px;
+    border-radius: 100px;
+    border: dashed black;
+    
+}
+
+.one:hover {
+    background-color: black;
+}
+
+a:link {
+    color:white;
+}
+
+a:hover {
+    color: yellow;
 }
