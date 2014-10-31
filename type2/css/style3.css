@@ -1,0 +1,140 @@
+body {
+	font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+	background-color: #d3d3d3;
+	color: #e7e7e7;
+}
+
+a:link {
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 6px;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 6px;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 6px;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 6px;
+    text-decoration: none;
+}
+
+.pixel {
+	position: absolute;
+	top: 40px;
+	left: 60px;
+	height: 70px;
+	width: 100px;
+	background: #090909;
+
+	-ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+	
+}
+
+.pixel2 {
+	position: absolute;
+	top: 60px;
+	left: 160px;
+	height: 50px;
+	width: 200px;
+	background: yellow;
+
+	-ms-transform: rotate(80deg); /* IE 9 */
+    -webkit-transform: rotate(80deg); /* Chrome, Safari, Opera */
+    transform: rotate(80deg);
+	
+}
+
+.pixel3 {
+	position: absolute;
+	top: 300px;
+	left: 160px;
+	height: 80px;
+	width: 400px;
+	background: #000000;
+
+	-ms-transform: rotate(-30deg); /* IE 9 */
+    -webkit-transform: rotate(-30deg); /* Chrome, Safari, Opera */
+    transform: rotate(-30deg);
+	
+}
+
+.pixel4 {
+	position: absolute;
+	top: 400px;
+	left: 500px;
+	height: 100px;
+	width: 200px;
+	background: #000000;
+
+	-ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+    transform: rotate(-10deg);
+	
+}
+
+.pixel5 {
+	position: absolute;
+	top: 150px;
+	left: 500px;
+	height: 20px;
+	width: 600px;
+	background: red;
+
+	-ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+    transform: rotate(10deg);
+	
+}
+
+.pixel6 {
+	position: absolute;
+	top: 300px;
+	left: 1000px;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	background: #000000;
+
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+.pixel7 {
+	position: absolute;
+	bottom: -30px;
+	left: 800px;
+	width: 200px;
+	height: 200px;
+	background: blue;
+
+	-ms-transform: rotate(40deg); /* IE 9 */
+    -webkit-transform: rotate(40deg); /* Chrome, Safari, Opera */
+    transform: rotate(40deg);
+}
+
+
+
+
+
+
+

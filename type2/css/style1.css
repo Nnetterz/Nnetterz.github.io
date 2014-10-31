@@ -1,0 +1,49 @@
+body {
+
+    height:100%;
+    background: linear-gradient(0deg, white, #555555 80%) no-repeat;\
+    font-family: 'Andale Mono', AndaleMono, monospace;
+}
+
+.one {
+	font-family: 'Andale Mono', AndaleMono, monospace;
+	text-transform: uppercase;
+}
+
+.two {
+	font-family: 'Andale Mono', AndaleMono, monospace;
+	text-transform: uppercase;
+}
+
+a:link {
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 6px;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #e3e3e3;
+    font-size: 30px;
+    letter-spacing: 6px;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 6px;
+    text-decoration: none;
+}
+
+
