@@ -10,7 +10,8 @@ body {
 }
 
 .headerone {
-    padding-top: 0px;
+    padding: 0px;
+    margin: 0px;
     text-transform: uppercase;
     font-size: 15px;
 }
