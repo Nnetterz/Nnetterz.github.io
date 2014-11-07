@@ -17,6 +17,7 @@ body {
 
 .wrapper{
     position:absolute;
+    color: #535353;
     top: 50%;
     left: 50%;
     margin: 30px;
@@ -32,17 +33,17 @@ body {
 
 .pixel {
 	position: absolute;
-	margin: 30;
-	padding: 30;
+	margin: 30px;
+	padding: 30px;
 	top: 0px;
 	left: 0px;
 	width: 100px;
 	height: 50px;
 	background: #f3f3f3;
 	
-		-ms-transform: rotate(40deg); /* IE 9 */
-    -webkit-transform: rotate(40deg); /* Chrome, Safari, Opera */
-    transform: rotate(40deg);
+		-ms-transform: rotate(15deg); /* IE 9 */
+    -webkit-transform: rotate(15deg); /* Chrome, Safari, Opera */
+    transform: rotate(15deg);
 }
 
 .pixel2 {
@@ -116,16 +117,19 @@ body {
 }
 
 
-
-.one:hover {
-    background-color: black;
-}
-
 a:link {
-    color: black;
+    color: #535353;;
     text-decoration: none;
 }
 
 a:hover {
-    color: #d3d3d3;
+    color: #0000ff;
+}
+
+a:active {
+	color: #535353;
+}
+
+a:visited {
+	color: #535353;
 }
