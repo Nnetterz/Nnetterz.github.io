@@ -35,6 +35,10 @@ body {
 	width: 100px;
 	height: 50px;
 	background: #f3f3f3;
+	
+		-ms-transform: rotate(40deg); /* IE 9 */
+    -webkit-transform: rotate(40deg); /* Chrome, Safari, Opera */
+    transform: rotate(40deg);
 }
 
 .pixel2 {
@@ -96,6 +100,18 @@ body {
     -webkit-transform: rotate(40deg); /* Chrome, Safari, Opera */
     transform: rotate(40deg);
 }
+
+.pixel6 {
+	position: absolute;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	background: #f3f3f3;
+	bottom: -60px;
+	left: 200px;
+}
+
+
 
 .one:hover {
     background-color: black;
